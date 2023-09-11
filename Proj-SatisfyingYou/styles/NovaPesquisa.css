@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Averia Libre', cursive;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1062px;
+    margin: 0 auto;
+    padding: 0 4%;
+    background-color: #372775;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------- HEADER ------------------------------------------------*/
+
+header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; /* Isso alinhará os elementos do header nas extremidades */
+}
+
+/*----------------------------------- LOGO-ICONE-TEXTO-CONTAINER ----------------------------------*/
+
+.logo-icone-texto-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-icone-texto-container a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.h1-texto-logo {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.material-symbols-outlined {
+    color: #FFFFFF;
+}
+
+/*------------------------------------- BOTAO-SAIR-CONTAINER ------------------------------------*/
+
+.botao-sair-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    color: #3F92C5;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+/*------------------------------------- MAIN ------------------------------------------*/
+
+main {
+    border: 1px solid #737373;
+    border-radius: 15px;
+    width: 488px;
+    height: 509px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*------------------------------------- SESSÃO-TÍTULO ------------------------------------------*/
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 40px 0;
+}
+
+/*------------------------------------ CADASTRO-PESQUISA-CONTAINER -------------------------------------*/
+
+.cadastroPesquisa-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+label {
+    color: #FFFFFF;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-txt {
+    width: 424px;
+    height: 39px;
+}
+
+/*----------------------------------- BARRA-DE-PESQUISA-CONTAINER ----------------------------------*/
+
+.arquivo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.seletor-de-arquivo {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-leitura {
+    width: 288px;
+    height: 39px;
+    background-color: #DBDBDB;
+}
+
+.arquivo {
+    width: 130px;
+    height: 39px;
+    color: #FFFFFF;
+    color: transparent;
+}
+
+#file-input {
+    display: none;
+}
+
+#file-input-label {
+    width: 130px;
+    height: 39px;
+    background-color: #A4A4A4;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.img-botaoCriar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    position: relative;
+}
+
+.botao-container {
+    position: absolute;
+    top: 90%;
+    left: 69%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.botao-criar {
+    background-image: linear-gradient(to right, #37BD6D, #49B976);
+    font-weight: 400;
+    font-size: 20px;
+    width: 134px;
+    height: 40px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid #37BD6D;
+}

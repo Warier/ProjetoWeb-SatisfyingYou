@@ -8,7 +8,7 @@
 
     <title>Home</title>
 
-    <link rel="stylesheet" href="../styles/TelaInicial.css">
+    <link rel="stylesheet" href="../styles/Home.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <body>
     <header>
@@ -21,9 +21,9 @@
         </section><!--logo-icone-texto-container-->
 
         <section class="botao-sair-container">
-            <button id="botao-novaPesquisa">Nova Pesquisa</button>
+            <a id="botao-novaPesquisa" href="NovaPesquisa.html">Nova Pesquisa</a>
             <ul>
-                <li><a href="#">Sair</a></li>
+                <li><a class="link-sair" href="#">Sair</a></li>
             </ul>
         </section><!--botao-sair-container-->
     </header>
@@ -35,23 +35,23 @@
         </section><!--barraDePesquisa-container-->
 
         <section class="cartao-container">
-            <div class="cartao">
+            <article class="cartao">
                 <img class="img-cartao-secomp" src="../assets/images/Secomp.png" alt="Imagem capa do evento SECOMP 2023">
                 <h2 class="titulo-cartao">SECOMP 2023</h2>
                 <spam class="data-cartao">10/10/2023</spam>
-            </div><!--cartao-->
+            </article><!--cartao-->
 
-            <div class="cartao">
+            <article class="cartao">
                 <img class="img-cartao-ubuntu" src="../assets/images/Ubuntu.png" alt="Imagem capa do evento SECOMP 2023">
                 <h2 class="titulo-cartao">UBUNTU 2022</h2>
                 <spam class="data-cartao">05/06/2023</spam>
-            </div><!--cartao-->
+            </article><!--cartao-->
 
-            <cartao class="cartao">
+            <article class="cartao">
                 <img class="img-cartao-meninasCPU" src="../assets/images/MeninasCPU.png" alt="Imagem capa do evento SECOMP 2023">
                 <h2 class="titulo-cartao">MENINAS CPU</h2>
                 <spam class="data-cartao">01/04/2023</spam>
-            </cartao><!--cartao-->
+            </article><!--cartao-->
         </section><!--cartao-container-->
     </main>
 </body>
