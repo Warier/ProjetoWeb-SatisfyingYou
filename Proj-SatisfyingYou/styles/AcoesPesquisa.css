@@ -68,14 +68,14 @@ ul {
 
 /*----------------------------------- CARDS-CONTAINER ----------------------------------*/
 
-.coleta-container {
+.cartao-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 150px;
 }
 
-.escolha {
+.cartao {
     width: 271px;
     height: 238px;
     border-radius: 10px;
@@ -96,7 +96,7 @@ ul {
     height: 100px;
 }
 
-.img-cartao-coleta {
+.img-cartao-relatorio {
     width: 83.13px;
     height: 82.81px;
 }
