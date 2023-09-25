@@ -59,20 +59,20 @@ main {
     font-weight: lighter;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
 /*----------------------------------- BOTAO-COLETA CONTAINER ----------------------------------*/
 
-.cartao-container {
+.coleta-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 100px;
 }
 
-.cartao {
+.escolha {
     width: 200px;
     height: 238px;
     border-radius: 10px;
@@ -82,17 +82,8 @@ a {
     justify-content: center;
 }
 
-.img-cartao-modificar {
-    width: 100px;
-    height: 100px;
-}
 
-.img-cartao-coletarDados {
-    width: 100px;
-    height: 100px;
-}
-
-.img-cartao-relatorio {
+.img-cartao-coleta {
     width: 83.13px;
     height: 82.81px;
 }
