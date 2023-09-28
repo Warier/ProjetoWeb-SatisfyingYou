@@ -102,6 +102,10 @@ ul {
 
 /*----------------------------------- CARDS-CONTAINER ----------------------------------*/
 
+#anchor {
+    text-decoration: none;
+}
+
 .cartao-container {
     display: flex;
     flex-direction: row;
