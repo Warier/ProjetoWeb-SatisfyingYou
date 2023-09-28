@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sistema de Pesquisa de Satisfação Satisfying.you - Compartilhe suas avaliações sobre produtos, serviços e experiências. Deixe sua opinião e ajude outras pessoas em suas escolhas. Avalie em uma escala de cinco níveis, do péssimo ao excelente, e descubra o que os outros pensam.">
-    <meta name="author" content="Joice Kelly">
+    <!--Página principal da aplicação.-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sistema de Pesquisa de Satisfação Satisfying.you - Compartilhe suas avaliações sobre produtos, serviços e experiências. Deixe sua opinião e ajude outras pessoas em suas escolhas. Avalie em uma escala de cinco níveis, do péssimo ao excelente, e descubra o que os outros pensam.">
+        <meta name="author" content="Joice Kelly">
 
-    <title>Home - Satisfying.you</title>
+        <title>Home - Satisfying.you</title>
 
-    <link rel="stylesheet" href="../styles/Home.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<body>
-    <header>
-        <section class="logo-icone-texto-container">
-            <span class="material-symbols-outlined">
-                sentiment_satisfied
-            </span><!--material-symbols-outlined-->
+        <link rel="stylesheet" href="../styles/Home.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <body>
+        <header>
+            <section class="logo-icone-texto-container">
+                <span class="material-symbols-outlined">
+                    sentiment_satisfied
+                </span><!--material-symbols-outlined-->
 
-            <h1 class="h1-texto-logo">Satisfying.you</h1>
-        </section><!--logo-icone-texto-container-->
+                <h1 class="h1-texto-logo">Satisfying.you</h1>
+            </section><!--logo-icone-texto-container-->
 
-        <section class="botao-sair-container">
-            <a id="botao-novaPesquisa" href="NovaPesquisa.html">Nova Pesquisa</a>
-            <ul>
-                <li><a class="link-sair" href="#">Sair</a></li>
-            </ul>
-        </section><!--botao-sair-container-->
-    </header>
+            <section class="botao-sair-container">
+                <a id="botao-novaPesquisa" href="NovaPesquisa.html">Nova Pesquisa</a>
+                <ul>
+                    <li><a class="link-sair" href="Index.html">Sair</a></li>
+                </ul>
+            </section><!--botao-sair-container-->
+        </header>
 
-    <main>
-        <section class="barraDePesquisa-container">
-            <img class="img-lupa" src="../assets/images/lupa.png" alt="Ícone de lupa">
-            <input id="input-txt-pesquisa" type="text" name="pesquisa" placeholder="Insira o termo de busca...">
-        </section><!--barraDePesquisa-container-->
+        <main>
+            <section class="barraDePesquisa-container">
+                <img class="img-lupa" src="../assets/images/lupa.png" alt="Ícone de lupa">
+                <input id="input-txt-pesquisa" type="text" name="pesquisa" placeholder="Insira o termo de busca...">
+            </section><!--barraDePesquisa-container-->
 
-        <section class="cartao-container">
-            <article class="cartao">
-                <img class="img-cartao-secomp" src="../assets/images/Secomp.png" alt="Imagem capa do evento SECOMP 2023">
-                <h2 class="titulo-cartao">SECOMP 2023</h2>
-                <spam class="data-cartao">10/10/2023</spam>
-            </article><!--cartao-->
+            <a id="anchor" href="AcoesPesquisa.html">
+                <section class="cartao-container">
+                    <article class="cartao">
+                        <img class="img-cartao-secomp" src="../assets/images/Secomp.png" alt="Imagem capa do evento SECOMP 2023">
+                        <h2 class="titulo-cartao">SECOMP 2023</h2>
+                        <spam class="data-cartao">10/10/2023</spam>
+                    </article><!--cartao-->
 
-            <article class="cartao">
-                <img class="img-cartao-ubuntu" src="../assets/images/Ubuntu.png" alt="Imagem capa do evento SECOMP 2023">
-                <h2 class="titulo-cartao">UBUNTU 2022</h2>
-                <spam class="data-cartao">05/06/2023</spam>
-            </article><!--cartao-->
+                    <article class="cartao">
+                        <img class="img-cartao-ubuntu" src="../assets/images/Ubuntu.png" alt="Imagem capa do evento SECOMP 2023">
+                        <h2 class="titulo-cartao">UBUNTU 2022</h2>
+                        <spam class="data-cartao">05/06/2023</spam>
+                    </article><!--cartao-->
 
-            <article class="cartao">
-                <img class="img-cartao-meninasCPU" src="../assets/images/MeninasCPU.png" alt="Imagem capa do evento SECOMP 2023">
-                <h2 class="titulo-cartao">MENINAS CPU</h2>
-                <spam class="data-cartao">01/04/2023</spam>
-            </article><!--cartao-->
-        </section><!--cartao-container-->
-    </main>
-</body>
+                    <article class="cartao">
+                        <img class="img-cartao-meninasCPU" src="../assets/images/MeninasCPU.png" alt="Imagem capa do evento SECOMP 2023">
+                        <h2 class="titulo-cartao">MENINAS CPU</h2>
+                        <spam class="data-cartao">01/04/2023</spam>
+                    </article><!--cartao-->
+                </section><!--cartao-container-->
+            </a>
+        </main>
+    </body>
 </html>

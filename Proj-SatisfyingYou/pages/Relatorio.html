@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sistema de Pesquisa de Satisfação Satisfying.you - Compartilhe suas avaliações sobre produtos, serviços e experiências. Deixe sua opinião e ajude outras pessoas em suas escolhas. Avalie em uma escala de cinco níveis, do péssimo ao excelente, e descubra o que os outros pensam.">
-    <meta name="author" content="Felippe Machado">
+    <!--Página para a apresentação de um relatório, em formato de gráfico de setores, com os dados coletados da pesquisa.-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sistema de Pesquisa de Satisfação Satisfying.you - Compartilhe suas avaliações sobre produtos, serviços e experiências. Deixe sua opinião e ajude outras pessoas em suas escolhas. Avalie em uma escala de cinco níveis, do péssimo ao excelente, e descubra o que os outros pensam.">
+        <meta name="author" content="Felippe Machado">
 
-    <title>Relatorio - Satisfying.you</title>
+        <title>Relatorio - Satisfying.you</title>
 
-    <link rel="stylesheet" href="../styles/Relatorio.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<body>
-<header>
-    <section class="logo-icone-texto-container">
-        <a href="Home.html">
-                <span class="material-symbols-outlined">
-                    sentiment_satisfied
-                </span><!--material-symbols-outlined-->
+        <link rel="stylesheet" href="../styles/Relatorio.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <body>
+        <header>
+            <section class="logo-icone-texto-container">
+                <a href="Home.html">
+                        <span class="material-symbols-outlined">
+                            sentiment_satisfied
+                        </span><!--material-symbols-outlined-->
+                    <h1 class="h1-texto-logo">Satisfying.you</h1>
+                </a>
+            </section><!--logo-icone-texto-container-->
 
-            <h1 class="h1-texto-logo">Satisfying.you</h1>
-        </a>
-    </section><!--logo-icone-texto-container-->
+            <section class="botao-sair-container">
+                <ul>
+                    <li><a href="Index.html">Sair</a></li>
+                </ul>
+            </section><!--botao-sair-container-->
+        </header>
 
-    <section class="botao-sair-container">
-        <ul>
-            <li><a href="#">Sair</a></li>
-        </ul>
-    </section><!--botao-sair-container-->
-</header>
-
-<main>
-    <section class="relatorio-container">
-        <article class="relatorio">
-            <img  src="../assets/images/pie-chart%201.png" alt="Imagem do grafico">
-        </article>
-        <article class="legenda">
-            <div class="legenda-topicos">
-                <div class="excelente"></div>
-                <h2 class="titulo-cartao">Excelente</h2>
-            </div>
-            <div class="legenda-topicos">
-                <div class="bom"></div>
-                <h2 class="titulo-cartao">Bom</h2>
-            </div>
-            <div class="legenda-topicos">
-                <div class="neutro"></div>
-                <h2 class="titulo-cartao">Neutro</h2>
-            </div>
-            <div class="legenda-topicos">
-                <div class="ruim"></div>
-                <h2 class="titulo-cartao">Ruim</h2>
-            </div>
-            <div class="legenda-topicos">
-                <div class="pessimo"></div>
-                <h2 class="titulo-cartao">Pessimo</h2>
-            </div>
-        </article>
-
-    </section>
-</main>
-</body>
+        <main>
+            <section class="relatorio-container">
+                <article class="relatorio">
+                    <img  src="../assets/images/pie-chart%201.png" alt="Imagem de um gráfico de setores">
+                </article><!--relatorio-->
+                <article class="legenda">
+                    <div class="legenda-topicos">
+                        <div class="excelente"></div>
+                        <h2 class="titulo-cartao">Excelente</h2>
+                    </div><!--legenda-topicos-->
+                    <div class="legenda-topicos">
+                        <div class="bom"></div>
+                        <h2 class="titulo-cartao">Bom</h2>
+                    </div><!--legenda-topicos-->
+                    <div class="legenda-topicos">
+                        <div class="neutro"></div>
+                        <h2 class="titulo-cartao">Neutro</h2>
+                    </div><!--legenda-topicos-->
+                    <div class="legenda-topicos">
+                        <div class="ruim"></div>
+                        <h2 class="titulo-cartao">Ruim</h2>
+                    </div><!--legenda-topicos-->
+                    <div class="legenda-topicos">
+                        <div class="pessimo"></div>
+                        <h2 class="titulo-cartao">Péssimo</h2>
+                    </div><!--legenda-topicos-->
+                </article><!--legenda-->
+            </section><!--relatorio-container-->
+        </main>
+    </body>
 </html>
